@@ -4,7 +4,7 @@ public class PointSaved extends AbstractEvent {
 
     private Long id;
     private String carNo;
-    private String point;
+    private Long point;
     private String resrvNo;
 
     public PointSaved(){
@@ -25,11 +25,11 @@ public class PointSaved extends AbstractEvent {
     public void setCarNo(String carNo) {
         this.carNo = carNo;
     }
-    public String getPoint() {
+    public Long getPoint() {
         return point;
     }
 
-    public void setPoint(String point) {
+    public void setPoint(Long point) {
         this.point = point;
     }
     public String getResrvNo() {
